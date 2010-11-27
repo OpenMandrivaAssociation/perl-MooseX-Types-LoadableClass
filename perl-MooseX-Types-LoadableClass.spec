@@ -15,6 +15,7 @@ BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(Moose)
 BuildRequires: perl(MooseX::Types)
 BuildRequires: perl(Test::More)
+BuildRequires: perl(Test::Exception)
 BuildRequires: perl(namespace::clean)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
