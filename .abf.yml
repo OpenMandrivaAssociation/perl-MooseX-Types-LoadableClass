@@ -1,2 +1,4 @@
+removed_sources:
+  MooseX-Types-LoadableClass-0.005.tar.gz: 32706f2b037f12acff1ae586d69f3ef3680f1df4
 sources:
-  "MooseX-Types-LoadableClass-0.005.tar.gz": 32706f2b037f12acff1ae586d69f3ef3680f1df4
+  MooseX-Types-LoadableClass-0.012.tar.gz: 42b0633dd49cc6b72b41c5273bdd6acaf4586462

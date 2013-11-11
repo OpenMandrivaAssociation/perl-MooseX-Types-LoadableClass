@@ -1,15 +1,15 @@
 %define upstream_name    MooseX-Types-LoadableClass
-%define upstream_version 0.005
+%define upstream_version 0.012
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	ClassName type constraint with coercion to load the class
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-Types-LoadableClass-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -55,4 +55,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sat Nov 27 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.5.0-1mdv2011.0
 + Revision: 602091
 - import perl-MooseX-Types-LoadableClass
+
 
