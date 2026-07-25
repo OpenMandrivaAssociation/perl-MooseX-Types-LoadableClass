@@ -1,15 +1,15 @@
 %define upstream_name    MooseX-Types-LoadableClass
-%define upstream_version 0.012
+%define upstream_version 0.016
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	ClassName type constraint with coercion to load the class
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-Types-LoadableClass-%{upstream_version}.tar.gz
+Url:		https://github.com/moose/MooseX-Types-LoadableClass
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-Types-LoadableClass-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
