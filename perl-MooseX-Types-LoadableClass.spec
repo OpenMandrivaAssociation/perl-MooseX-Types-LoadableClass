@@ -9,7 +9,7 @@ Summary:	ClassName type constraint with coercion to load the class
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/moose/MooseX-Types-LoadableClass
-Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-Types-LoadableClass-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-Types-LoadableClass-0.016.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -49,14 +49,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc Changes META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
-
-%changelog
-* Sat Apr 23 2011 Funda Wang <fwang@mandriva.org> 0.5.0-2mdv2011.0
-+ Revision: 657800
-- rebuild for updated spec-helper
-
-* Sat Nov 27 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.5.0-1mdv2011.0
-+ Revision: 602091
-- import perl-MooseX-Types-LoadableClass
-
 
