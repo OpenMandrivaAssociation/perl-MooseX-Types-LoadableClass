@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.016
-Release:	2
+Release:	3
 
 Summary:	ClassName type constraint with coercion to load the class
 License:	GPL+ or Artistic
