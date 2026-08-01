@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.016
-Release:	1
+Release:	2
 
 Summary:	ClassName type constraint with coercion to load the class
 License:	GPL+ or Artistic
@@ -12,6 +12,7 @@ Url:		https://github.com/moose/MooseX-Types-LoadableClass
 Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-Types-LoadableClass-0.016.tar.gz
 
 BuildRequires:	make
+BuildRequires:	perl(Module::Build::Tiny)
 BuildRequires:	perl(Module::Build)
 BuildRequires:	perl-devel
 BuildRequires: perl(namespace::autoclean)
